@@ -10,7 +10,7 @@ import apple from '@/public/apple.svg'
 import search from '@/public/search.svg'
 
 
-const navbar = () => {
+const Navbar = () => {
     const [active, setActive] = useState(null)
   return (
     <div>
@@ -75,4 +75,4 @@ const navbar = () => {
   )
 }
 
-export default navbar
+export default Navbar

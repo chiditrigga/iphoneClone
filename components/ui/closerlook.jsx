@@ -9,7 +9,7 @@ import black from "@/public/images/black_titanium.jpg"
 import swatch from "@/public/images/swatch_all.jpg"
 import { useState } from 'react'
 
-const closerlook = () => {
+const Closerlook = () => {
     const imageList = [
         {
             link: all,
@@ -167,4 +167,4 @@ const closerlook = () => {
   )
 }
 
-export default closerlook
+export default Closerlook
