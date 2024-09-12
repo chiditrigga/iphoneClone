@@ -22,6 +22,7 @@ module.exports = {
         },
         zinc: "#101010",
       },
+     
     },
   },
   plugins: [],

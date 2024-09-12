@@ -51,6 +51,9 @@ const Closerlook = () => {
         duration:0.5,
         ease:'easeIn'
       }}
+      viewport={{
+        margin:'-60px'
+      }}
      className='md:ms-16 text-2xl ps-3 md:ps-0 md:text-5xl font-bold text-[#86868b] opacity-0'>Take a closer look.</motion.div>
     
      <div className=' relative mt-10 w-screen h-[30rem] md:h-[30rem]'>

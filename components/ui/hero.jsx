@@ -30,19 +30,20 @@ const hero = () => {
       </video>
       <motion.div 
        initial={{
-        y:150,
+        y:'30px',
         opacity:0
        }}
          
        animate={{
-        y:0,
+        y:"-30px",
         opacity:1
        }}
 
        transition={{
-        duration:1,
-        ease:'easeIn'
+        duration:2,
+        ease:'easeInOut'
        }}
+
 
       className=' text-center'>
         <button className='mb-3 hover:bg-black hover:text-[#2997ff] border border-[#2997ff] text-white bg-[#2997ff] py-2 px-5  rounded-full'>Buy</button>
