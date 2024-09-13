@@ -99,7 +99,7 @@ file transfers
             The new USBC connector lets you <span  className=" text-white"> charge your Mac or iPad with the same cable you use to charge iPhone 15 Pro</span>  . Byebye, cable clutter.
             </div>
             <div className="leading-[2rem]">
-            And with allnew WiFi 6E6 you'll get<span  className=" text-white">  two times faster wireless speeds</span>. So you can upload, download, and transfer files in a flash.
+            And with allnew WiFi 6E6 youll get<span  className=" text-white">  two times faster wireless speeds</span>. So you can upload, download, and transfer files in a flash.
             </div>
 
 
