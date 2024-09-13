@@ -20,7 +20,7 @@ const hero = () => {
  <source src={'/videos/smallHero.mp4'} type='video/mp4' />
       </video>
       <video
-        className=' hidden md:block w-full h-full min-h-[70vh] object-cover'
+        className=' hidden md:block 2xl:px-28 2xl:h-[60%] h-full min-h-[70vh] '
         autoPlay
         muted
         

@@ -11,10 +11,10 @@ import Image from "next/image";
 const Acamera = () => {
 
   return (
-    <div className="md:mt-[15rem]  mx-auto">
+    <div className="md:mt-[15rem]  mx-auto my-32 md:my-2 ">
 
 
- <motion.div className=" md:mt-20 lg:max-w-[80vw] xl:max-w-[70vw] mx-3 md:mx-auto md:px-10 text-2xl mb-[3rem]  2xl:px-56 font-semibold md:text-5xl xl:text-7xl 2xl:text-7xl"
+ <motion.div className=" md:mt-20 lg:max-w-[80vw] xl:max-w-[75vw] mx-3 md:mx-auto md:px-10 text-3xl mb-[3rem]  2xl:px-56 font-semibold md:text-5xl xl:text-7xl 2xl:text-7xl"
  initial={{
     opacity:0,
     y:'20px'
@@ -29,11 +29,11 @@ const Acamera = () => {
  }}
  >
 
-<span className=" md:leading-[3.5rem]">A camera that captures your wildest imagination.</span> 
+<span className=" leading-[2rem] md:leading-[3.5rem]">A camera that captures your wildest imagination.</span> 
 
 
  </motion.div>
- <motion.div  className=" font-semibold md:text-2xl text-[#86868b] lg:max-w-[70vw] mx-3 md:mx-auto my-5 md:my-8">
+ <motion.div  className=" font-semibold md:text-2xl text-[#86868b] md:max-w-[90vw] lg:max-w-[70vw] mx-3 md:mx-auto my-5 md:my-8">
  From dramatic framing flexibility to next-generation portraits, see what you can do with our most powerful iPhone camera system.
  </motion.div>
 <div className="p-4   dark:bg-neutral-900 bg-transparent   px-4">
@@ -83,7 +83,7 @@ const Acamera = () => {
        <motion.div 
        
        
-       className="text-[#86868b] font-bold text-xl flex flex-col justify-center h-full my-10 md:my-1">
+       className="text-[#86868b] font-semibold md:font-bold md:text-xl flex flex-col justify-center h-full my-10 md:my-1">
       <motion.span
       
 
@@ -160,7 +160,7 @@ const Acamera = () => {
        {/* 120 mm */}
 
        
-       <div>
+       <div className=" ">
            
 
 
@@ -174,10 +174,10 @@ const Acamera = () => {
 
         <div className=" mt-24 md:mt-96 md:mb-24">
 
-              <div  className=" md:mt-20 lg:max-w-[60vw] md:max-w-[70vw] xl:max-w-[45vw]  mx-auto md:px-10 text-3xl mb-[3rem]  2xl:px-56 font-semibold lg:text-7xl md:text-6xl xl:text-7xl 2xl:text-7xl max-w-[70vw]  text-center">
+              <div  className=" md:mt-20 lg:max-w-[60vw] md:max-w-[80vw] xl:max-w-[50vw]  mx-auto md:px-10 text-3xl mb-[3rem]  2xl:px-56 font-semibold lg:text-7xl md:text-6xl xl:text-7xl 2xl:text-7xl max-w-[70vw]  text-center my-52 md:my-1 ">
              
 
-              <span className=" md:leading-[3.5rem]"> 120 mm of pure Pro zoom.</span> 
+              <span className=" md:leading-[3.5rem] "> 120 mm of pure Pro zoom.</span> 
 
               </div>
 
@@ -186,14 +186,14 @@ const Acamera = () => {
         </div>
 
 
-            <div className="px-2">
+            <div className="md:px-2">
                   
               <Image className=" mx-auto" src={zoom5} alt="zoom" />
             </div>
            
-           <div>
+           <div className=" px-3">
             
-           <div style={{lineHeight:'2rem'}} className=' mt-12 px-3 md:mt-16 xl:gap-x-10 md:gap-x-10 grid text-[#86868b] font-bold text-xl md:grid-cols-2 md:w-[90vw] xl:w-[70vw] mx-auto'>
+           <div style={{lineHeight:'2rem'}} className=' mt-12 px-3 md:mt-16 xl:gap-x-10 md:gap-x-10 grid text-[#86868b] font-semibold md:font-bold md:text-xl md:grid-cols-2 md:w-[90vw] xl:w-[70vw] mx-auto'>
         <div>
             <motion.div 
              initial={{
@@ -263,10 +263,10 @@ const Acamera = () => {
            viewport={{
             margin:'-100px'
            }}
-           className=" md:text-center"
+           className=" md:text-center my-10 md:my-1"
             >
        
-<span className=' md:text-3xl xl:text-5xl font-bold text-white '>5x optical zoom</span>  <br />
+<span className=' md:text-3xl text-4xl  xl:text-5xl font-bold text-white '>5x optical zoom</span>  <br />
 with the 120 mm lens
 
         </motion.div>

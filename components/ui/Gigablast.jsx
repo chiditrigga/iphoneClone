@@ -8,7 +8,7 @@ const Gigablast = () => {
   return (
     <div className="px-3">
 
-       <div className="md:my-28 my-14 mt-32  ms-10 md:mt-44 md:px-10 text-3xl md:ms-10 lg:ms-56  2xl:px-56 font-semibold md:text-5xl lg:text-7xl 2xl:text-7xl">
+       <div className="md:my-28 my-14 mt-52  ms-10 md:mt-44 md:px-10 text-3xl md:ms-10 lg:ms-56  2xl:px-56 font-semibold md:text-5xl lg:text-7xl 2xl:text-7xl">
        Gigablast <br />
        your gigabits.
        </div>
@@ -37,7 +37,7 @@ const Gigablast = () => {
         <Image className=" mx-auto" src={gigablast} alt="gigablast"/>
        </motion.div>
 
-        <div  className=" my-20  text-[#86868b] font-bold md:text-xl md:grid-cols-2 md:w-[90vw] xl:w-[70vw] mx-auto">
+        <div  className=" md:px-1 px-3 my-20  text-[#86868b] font-semibold md:font-bold md:text-xl md:grid-cols-2 md:w-[90vw] xl:w-[70vw] mx-auto">
 
         <motion.div className=" md:grid md:grid-cols-2 lg:gap-x-28"
           initial={{
@@ -63,11 +63,11 @@ const Gigablast = () => {
             <div className="leading-[2rem]">
             iPhone 15 Pro is the first iPhone to support USB 3,5 for a <span  className=" text-white">huge leap in data transfer speeds</span>  and faster pro workflows than ever before.
             </div>
-            <div className=" leading-[2.5rem]">
+            <div className=" leading-[2.5rem] my-7 md:my-1">
             Up to <br />
 
 
-<span className=' md:text-3xl xl:text-5xl font-bold text-white '>20x faster</span>  <br />
+<span className=' md:text-3xl text-4xl xl:text-5xl font-bold text-white '>20x faster</span>  <br />
 file transfers
             </div>
 
@@ -99,7 +99,7 @@ file transfers
             The new USBC connector lets you <span  className=" text-white"> charge your Mac or iPad with the same cable you use to charge iPhone 15 Pro</span>  . Byebye, cable clutter.
             </div>
             <div className="leading-[2rem]">
-            And with allnew WiFi 6E6 you'll get<span  className=" text-white">  two times faster wireless speeds</span>. So you can upload, download, and transfer files in a flash.
+            And with allnew WiFi 6E6 youll get<span  className=" text-white">  two times faster wireless speeds</span>. So you can upload, download, and transfer files in a flash.
             </div>
 
 

@@ -12,6 +12,7 @@ import Acamera from "@/components/ui/Acamera";
 import Gigablast from "@/components/ui/Gigablast";
 import Battery from "@/components/ui/Battery";
 import Card from "@/components/ui/Card";
+import Exploring from "@/components/ui/Exploring";
 
 export default function ThreeDCardDemo() {
   return (
@@ -32,6 +33,11 @@ export default function ThreeDCardDemo() {
       <Gigablast />
       <Battery />
       <Card />
+      <div className="bg-[#101010] md:mt-44">
+       <Exploring /> 
+       
+      </div>
+      
 
    
     </>

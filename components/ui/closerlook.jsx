@@ -34,7 +34,7 @@ const Closerlook = () => {
     ]
     const [currentImage, setCurrentImage] = useState(all);
   return (
-    <div className=' md:py-44'>
+    <div className=' md:py-44 my-36 md:my-2 '>
 
      <motion.div
       initial={{
@@ -54,7 +54,7 @@ const Closerlook = () => {
       viewport={{
         margin:'-60px'
       }}
-     className='md:ms-16 text-2xl ps-3 md:ps-0 md:text-5xl font-bold text-[#86868b] opacity-0'>Take a closer look.</motion.div>
+     className='md:ms-16 text-4xl my-5 md:my-1 md:mb-1 mb-20  ps-3 md:ps-0 md:text-5xl font-bold text-[#86868b] opacity-0'>Take a closer look.</motion.div>
     
      <div className=' relative mt-10 w-screen h-[30rem] md:h-[30rem]'>
       
