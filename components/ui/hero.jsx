@@ -30,18 +30,19 @@ const hero = () => {
       </video>
       <motion.div 
        initial={{
-        y:'30px',
+        y:200,
         opacity:0
        }}
          
        animate={{
-        y:"-30px",
+        y:0,
         opacity:1
        }}
 
        transition={{
         duration:2,
-        ease:'easeInOut'
+        ease:'easeInOut',
+        delay:1.5
        }}
 
 

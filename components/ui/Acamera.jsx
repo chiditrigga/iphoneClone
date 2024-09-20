@@ -14,7 +14,7 @@ const Acamera = () => {
     <div className="md:mt-[15rem]  mx-auto my-32 md:my-2 ">
 
 
- <motion.div className=" md:mt-20 lg:max-w-[80vw] xl:max-w-[75vw] mx-3 md:mx-auto md:px-10 text-3xl mb-[3rem]  2xl:px-56 font-semibold md:text-5xl xl:text-7xl 2xl:text-7xl"
+ <motion.div className=" md:mt-20 lg:max-w-[80vw] xl:max-w-[75vw] 2xl:max-w-[100vw] 2xl:text-center mx-3 md:mx-auto md:px-10 text-3xl mb-[3rem]  2xl:px-56 font-semibold md:text-5xl xl:text-7xl 2xl:text-7xl"
  initial={{
     opacity:0,
     y:'20px'
@@ -33,7 +33,7 @@ const Acamera = () => {
 
 
  </motion.div>
- <motion.div  className=" font-semibold md:text-2xl text-[#86868b] md:max-w-[90vw] lg:max-w-[70vw] mx-3 md:mx-auto my-5 md:my-8">
+ <motion.div  className=" font-semibold md:text-2xl text-[#86868b] md:max-w-[90vw] 2xl:max-w-[45vw] lg:max-w-[70vw] mx-3 md:mx-auto my-5 md:my-8">
  From dramatic framing flexibility to next-generation portraits, see what you can do with our most powerful iPhone camera system.
  </motion.div>
 <div className="p-4   dark:bg-neutral-900 bg-transparent   px-4">
@@ -58,7 +58,7 @@ const Acamera = () => {
      {/* iphone girl */}
 
 
-     <div className="mt-40 md:mt-56  xl:gap-x-5 md:gap-x-5 grid md:grid-cols-2 w-[80vw]  xl:w-[60vw] mx-auto ">
+     <div className="mt-40 md:mt-56  xl:gap-x-5 md:gap-x-5 grid md:grid-cols-2 w-[80vw]   xl:w-[60vw] mx-auto ">
        
        <motion.div 
        initial={{
@@ -188,7 +188,7 @@ const Acamera = () => {
 
             <div className="md:px-2">
                   
-              <Image className=" mx-auto" src={zoom5} alt="zoom" />
+              <Image className=" mx-auto w-full" src={zoom5} alt="zoom" />
             </div>
            
            <div className=" px-3">

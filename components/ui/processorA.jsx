@@ -37,7 +37,7 @@ const processorA = () => {
     <div>
         <h3 className='text-[#86868b] font-bold'>Honkai: Star Rail</h3>
     </div>
-    <div style={{lineHeight:'2rem'}} className=' mt-12 px-3 md:mt-16 xl:gap-x-10 md:gap-x-5 grid text-[#86868b] font-semibold md:font-bold md:text-xl md:grid-cols-2 md:w-[90vw] xl:w-[60vw]'>
+    <div style={{lineHeight:'2rem'}} className=' mt-12 px-3 md:mt-16 xl:gap-x-10 md:gap-x-5 grid text-[#86868b] font-semibold md:font-bold md:text-xl md:grid-cols-2 md:w-[90vw] xl:w-[60vw] '>
         <div>
             <motion.div 
              initial={{
@@ -101,7 +101,7 @@ const processorA = () => {
              style={{
                 lineHeight:'2.5rem'
              }}
-             className=' my-5 md:my-1'
+             className=' my-5 md:my-1 mx-auto'
             >
         New <br />
 <span className='  text-4xl xl:text-5xl font-bold text-white'>Pro-class GPU</span>  <br />

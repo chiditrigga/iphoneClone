@@ -62,7 +62,7 @@ const Battery = () => {
             Up to <br />
 
 
-<h3 className=' md:text-3xl text-4xl xl:text-7xl font-bold text-white py-3'>29 hrs</h3>  
+<h3 className='  text-4xl xl:text-7xl font-bold text-white py-3'>29 hrs</h3>  
 <h3 className=" ">video playback on iPhone 15 Pro Max12</h3> 
             </motion.div>
 
@@ -85,7 +85,7 @@ const Battery = () => {
               margin:'-170px'
              }}
             
-            className="leading-[2.5rem] md:leading-[3rem]  md:text-2xl pt-3">
+            className="leading-[2.5rem] md:leading-[3rem] md:ps-5  md:text-2xl pt-3">
            Add a MagSafe Charger for  <span  className=" text-white ">fast, efficient wireless charging13</span>
             </motion.div>
            
@@ -123,7 +123,7 @@ const Battery = () => {
             Up to <br />
 
 
-<h3 className=' md:text-3xl text-4xl xl:text-7xl font-bold text-white py-3'>23 hrs</h3>  
+<h3 className=' text-4xl xl:text-7xl font-bold text-white py-3'>23 hrs</h3>  
 <h3 className=" ">video playback on iPhone 15 Pro12</h3> 
             </motion.div>
             <motion.div

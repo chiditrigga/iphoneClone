@@ -22,15 +22,15 @@ const Navbar = () => {
       <Menu setActive={setActive}>
         <Image src={apple} />
         <MenuItem setActive={setActive} active={active} item="Mac">
-          <div className="flex flex-col space-y-4 text-sm">
+          {/* <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink href="/web-dev">Web Development</HoveredLink>
             <HoveredLink href="/interface-design">Interface Design</HoveredLink>
             <HoveredLink href="/seo">Search Engine Optimization</HoveredLink>
             <HoveredLink href="/branding">Branding</HoveredLink>
-          </div>
+          </div> */}
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="ipad">
-          <div className="  text-sm grid grid-cols-2 gap-10 p-4">
+          {/* <div className="  text-sm grid grid-cols-2 gap-10 p-4">
             <ProductItem
               title="Algochurn"
               href="https://algochurn.com"
@@ -55,31 +55,31 @@ const Navbar = () => {
               src="https://assets.aceternity.com/demos/Screenshot+2024-02-21+at+11.47.07%E2%80%AFPM.png"
               description="Respond to government RFPs, RFIs and RFQs 10x faster using AI"
             />
-          </div>
+          </div> */}
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="iphone">
-          <div className="flex flex-col space-y-4 text-sm">
+          {/* <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink href="/hobby">Hobby</HoveredLink>
             <HoveredLink href="/individual">Individual</HoveredLink>
             <HoveredLink href="/team">Team</HoveredLink>
             <HoveredLink href="/enterprise">Enterprise</HoveredLink>
-          </div>
+          </div> */}
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="Support">
-          <div className="flex flex-col space-y-4 text-sm">
+          {/* <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink href="/web-dev">Web Development</HoveredLink>
             <HoveredLink href="/interface-design">Interface Design</HoveredLink>
             <HoveredLink href="/seo">Search Engine Optimization</HoveredLink>
             <HoveredLink href="/branding">Branding</HoveredLink>
-          </div>
+          </div> */}
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="Where to Buy">
-          <div className="flex flex-col space-y-4 text-sm">
+          {/* <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink href="/web-dev">Web Development</HoveredLink>
             <HoveredLink href="/interface-design">Interface Design</HoveredLink>
             <HoveredLink href="/seo">Search Engine Optimization</HoveredLink>
             <HoveredLink href="/branding">Branding</HoveredLink>
-          </div>
+          </div> */}
         </MenuItem>
         <Image src={search} />
       </Menu>
